@@ -105,8 +105,33 @@ Ans. cd ReactProjects .
     -Install React using create-react-app, a tool that installs all of the dependencies to build and run a full React.js application.
 Q.39 How to create components in React?
 Ans. create a new file with a .js 
-Q.40  react element
+Q.40  react element?
 Ans.React Element: It is the basic building block in a react application, it is an object representation of a virtual DOM node. 
+Q.41  Explain the default keyword in React.
+   Ans. when you export a symbol as default, you don't need to specify its name
+Q.42  What is the difference between Element and Component?
+Ans. There is certainly a difference between elements and components. Furthermore, a component refers to a small part of a larger entity that mostly is a manufactured object. In contrast, an element is one the simplest parts of which anything consists of.
+Q.43  what is React Api used under the hood?
+Ans. React must now compare these two trees and provide ReactDOM with instructions to sync anything that has changed.
+Q.44 What are callback functions?
+Ans. A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action
+Q.45  Inline Conditional Expression - Example ?
+Ans. An expression a ? b : c evaluates to b if the value of a is true, and otherwise to c . One can read it aloud as "if a then b otherwise c".
+Q.46 npm vs npx ?
+Ans. NPM is a package manager used to install, update or remove packages and dependencies your project requires. NPX is an NPM package used to execute any package on the NPM registry directly without installing it. This is just a starting point in the world of Javascript and NodeJS
+Q.47 What is default in export statement?
+Ans.  Default export - is the value that will be imported from the module, if you use the simple import statement import X from 'module'.
+Q.48   What is meant by data flow is unidirectional in react?
+Ans.Unidirectional data flow is a technique that is mainly found in functional reactive programming. It is also known as one-way data flow, which means the data has one, and only one way to be transferred to other parts of the application.
+Q.49 What is the use of keys in react?
+Ans. Keys help React identify which items have changed, are added, or are removed.
+Q.50 diffing algorithm?
+Ans.Elements of different types will produce different trees. We can set which elements are static and do not need to be checked.
+Q.51 Reconciliation process
+Ans. Reconciliation is the process of comparing transactions and activity to supporting documentation. Further, reconciliation involves resolving any discrepancies that may have been discovered.
+Q.52 what is state?
+Ans.The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders.
+
     
   
 
