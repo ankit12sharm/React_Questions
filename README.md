@@ -72,6 +72,59 @@ Ans. In virtual DOM, it first create the tree of components, and when we do chan
 Q.28  Why react maintains virtual dom.
 Ans React uses the virtual DOM as a strategy to compute minimal DOM operations when re-rendering the UI, React uses Virtual DOM exists which is like a lightweight copy of the actual DOM.
 Q.29  Describe about Virtual Dom and real DOM?
+Ans. A virtual DOM object is the same as a real DOM object, except that it is a lightweight copy. This means that it cannot manipulate on-screen elements. Moreover, upon any change of a property, it only updates the corresponding nodes and not the entire tree. That makes it a quick and efficient alternative.
+-DOM is an interface that allows the script to update the content, style, and structure of the document. Virtual DOM is just like a blueprint of a machine, can do changes in the blueprint but those changes will not directly apply to the machine.
+Q.30 shadow DOM?
+Ans. Shadow DOM allows hidden DOM trees to be attached to elements in the regular DOM tree.
+Q.31  What is diff between real vs virtual dom.
+Ans.        Real DOM                                                                          Virtual DOM
+           It allows us to directly target any specific node (HTML element)	    It can produce about 200,000 Virtual DOM Nodes / Second.
+           It represents the Ul of your application	                                  It is only a virtual representation of the DOM
+           The real DOM can directly update HTML. The virtual DOM cannot directly update HTML. The virtual DOM updates the JSX if the element updates. In real DOM, DOM 
+            manipulation is very expensive.
+Q.32 library vs framework
+Ans.  A framework is a set of pre-written code that provides a structure for developing software applications. A library, on the other hand, is a collection of pre-written 
+      code that can be used to perform specific tasks.
+Q.33  What is web development?
+ Ans. Web development is the building and maintenance of websites,
+ Q.34 How will you implement lazy loading in react?
+ Ans.You need to provide a single input parameter to call React. lazy().
+     Code-splitting and lazy loading is a way to decreasing initial loading time to clients.
+    - Call const LazyLoadedComponent = React.lazy(() => import(‘./custom-component.js’)
+    - Use <LazyLoadedComponent />
+ Q.35  How to pass data from parent component to child component ? 
+   Ans.      The most basic and commonly used way to pass data from a parent component to a child component is through [props]. Props, 
+               short for properties, are read-only values that are passed from a parent component to a child component
+ Q.36  How can we pass data from component A to component C with no child sibling
+       relationship? 
+   Ans. Props are used for passing data between the components. We usually use it to pass data from the parent component to the child component.
+Q.37 . How do we create react apps?
+ Ans. If you have npx and Node.js installed, you can create a React application by using create-react-app.
+Q.38  How do we create react apps in local?  
+Ans. cd ReactProjects .
+    -Install React using create-react-app, a tool that installs all of the dependencies to build and run a full React.js application.
+Q.39 How to create components in React?
+Ans. create a new file with a .js 
+Q.40  react element
+Ans.React Element: It is the basic building block in a react application, it is an object representation of a virtual DOM node. 
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
