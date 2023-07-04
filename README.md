@@ -40,6 +40,38 @@ Q.14  Why we use js?
 Ans. JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive. It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control multimedia, etc.
 Q.15 What is JSX?
 Ans. JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+Q.16  what is JSX in reactjs?
+Ans.  JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+Q.17  Why we use jsx?  
+Ans. JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods. JSX converts HTML tags into react elements. You are not required to use JSX, but JSX makes it easier to write React applications.
+Q.18  Can I write if else condition in JSX?
+Ans. if-else statements don't work inside JSX. This is because JSX is just syntactic sugar for function calls and object construction.
+Q.19 . What is JSX and What is the relation of JSX with React.createElement ?
+Ans.JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods.
+Q.20  does the web browser understand JSX directly ?  
+ Ans. No,Browsers can't read JSX because there is no inherent implementation for the browser engines to read and understand them.
+Q.21 Can web browsers read JSX directly?
+No,Browsers can't read JSX because there is no inherent implementation for the browser engines to read and understand them.
+Q.22  What is Babel?
+Ans.  Babel is transpiler[to translate the code] which convert the latest version of JavaScript code into the one that the browser understands.
+Q.23 How do you create elements in React without JSX?
+Ans. Yes, it is possible to use React without JSX,. So, anything you can do with JSX can also be done with just plain JavaScript.
+Q.24 why do we use className instead of class keyword as an Attribute in jsx?
+Ans.  The only reason behind the fact that it uses className over class is that the class is a reserved keyword in JavaScript and since we use JSX in React which itself is the extension of JavaScript, so we have to use className instead of class attribute.
+the class is a reserved keyword in JavaScript and since we use JSX in React which itself is the extension of JavaScript
+Q.25  DOM?
+Ans.  Document Object Model 
+DOM stands for Document Object Model. It is a programming interface that allows us to create, change, or remove elements from the document.
+Q.26 what is virtualDOM? explain the same
+Ans  React uses Virtual DOM which is like a lightweight copy of the actual DOM.
+    - It is exactly the same as DOM, but it does not have the power to directly change the layout of the document.
+    - Manipulating DOM is slow, but manipulating Virtual DOM is fast as nothing gets drawn on the screen
+    - In virtual DOM, it first create the tree of components, and when we do changes in any component only that component is re-rendered.
+Q.27  How Virtual DOM works?
+Ans. In virtual DOM, it first create the tree of components, and when we do changes in any component only that component is re-rendered.
+Q.28  Why react maintains virtual dom.
+Ans React uses the virtual DOM as a strategy to compute minimal DOM operations when re-rendering the UI, React uses Virtual DOM exists which is like a lightweight copy of the actual DOM.
+Q.29  Describe about Virtual Dom and real DOM?
 
 
 
