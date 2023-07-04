@@ -130,7 +130,7 @@ Ans.Elements of different types will produce different trees. We can set which e
 Q.51 Reconciliation process
 Ans. Reconciliation is the process of comparing transactions and activity to supporting documentation. Further, reconciliation involves resolving any discrepancies that may have been discovered.
 Q.52 what is state?
-Ans.The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders.
+Ans.The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders
 
     
   
