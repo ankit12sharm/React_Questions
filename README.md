@@ -20,3 +20,12 @@ Ans. - Lack of Proper Documentation
     - Development Speed
     - JSX - JSX may be difficult for some devlopers to understand 
     - Problems With SEO
+Q.6  Why we use react?
+Ans. React can be used to build web, mobile, and desktop applications, making it a versatile framework for cross-platform development.
+Q.7  Why is react fast?
+Ans.React uses Virtual DOM, thereby creating web applications faster. Virtual DOM compares the components' previous states and updates only the items in the Real DOM that were changed, instead of updating all of the components again, as conventional web applications do.
+Q.8 . what is a single page application?
+Ans. A single page application is a website or web application that dynamically rewrites a current web page with new data from the web server, instead of the default method of a web browser loading entire new pages.
+Q.9  React, is it framework or library?
+Ans. React is merely a library that deals with views.
+Q.10 Why we use redux? 
