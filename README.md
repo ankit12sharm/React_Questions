@@ -224,7 +224,80 @@ Ans.Lifecycle of Components
 The three phases are: Mounting, Updating, and Unmounting.
 Q.91  Explain the usage of componentWillUnmount() lifecycle method?
 Ans.The componentWillUnmount() method allows us to execute the React code when the component gets destroyed or unmounted from the DOM (Document Object Model). This method is called during the Unmounting phase of the React Life-cycle i.e before the component gets unmounted.
-    
+Q.92  Why React uses className over class attribute?
+Ans.the class is a reserved keyword in JavaScript 
+Q.93 How to perform unmounting in functional component?
+Ans.This method is called during the unmounting phase of the React Lifecycle, i.e., before the component is destroyed or unmounted from the DOM tree. This method is majorly used to cancel all the subscriptions that were previously created in the componentWillMount method.  [maybe].
+Q.94 Create a simple class and function based component.
+Ans.To develop class-based components in React, we can use JavaScript ES6 classes. To define a React component class, you need to extend React. Component. You must develop a render method that returns a React element by extending from React.
+Q.95  When to use a Class Component over a Function Component?
+Ans.  If you want consistency between all components in your codebase, go with classes.
+Q.96  why do we use className instead of class in react js?
+Ans.The only reason behind the fact that it uses className over class is that the class is a reserved keyword in JavaScript and since we use JSX in React which itself is the extension of JavaScript, so we have to use className instead of class attribute.
+Q.97  What are fragments in react?
+Ans. React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
+Q.98  What do you mean by unidirectional?
+Ans.Unidirectional data flow describes a one-way data flow where the data can move in only one pathway when being transferred between different parts of the program.
+Q.99  What are the features of React?
+Ans.Virtual DOM,One-way data binding,Performance,Components,Simplicity.
+Q.100 What is the difference between the ES5 and ES6 standards?
+Ans. ES5 supports primitive data types that are string, number, boolean, null, and undefined. In ES6, there are some additions to JavaScript data types. 
+Q.101  what do you mean by rendering?
+Ans. In React, Render is the technique that can redirect a page with the help of function render().
+Q.102 what do you mean by re-rendering?
+Ans. A second or subsequent render to update the state is called as re-rendering. React components automatically re-render whenever there is a change in their state or props.
+Q.103 What are the things that can cause re-render of your state
+Ans.React components automatically re-render whenever there is a change in their state or props. A simple update of the state, from anywhere in the code, causes all the User Interface (UI) elements to be re-rendered automatically. 
+Q.104  what is conditional rendering in react js? 
+Ans.In React, conditional rendering is the process of displaying different content based on certain conditions or states.
+Q.105 What is the use of render() in React?
+Ans.In React, Render is the technique that can redirect a page with the help of function render(). Most importantly, render a function we can use to define the HTML code within the HTML element. It helps to display certain views in the UI using certain logic defined in the render function and returns the output.
+Q.106  What is the difference between server side render and client side render?
+Ans. The main difference between these two rendering approaches is in the algorithms of their operation. CSR shows an empty page before loading, while SSR displays a fully-rendered HTML page on the first load.
+Q.107 Write a class based component and asked to convert into function component
+        class Fun(){
+        componentDidMount(){
+        function doSomething(){
+        console.log(4);
+        }
+        fun();
+        }
+
+        render(){
+        return <>Fun</>
+        }
+        }
+Q.108 What would you do if your React application is rendering slowly?
+Ans.Remember re-render happens whenever there is a change in a state component. It causes the render method to call again and then react updates only a portion that needs to be updated by comparing copies of Virtual DOM.
+Q.109  Explain the lifecycle methods of components?[12]
+Ans. - Each component in React has a lifecycle which you can monitor and manipulate during its three main phases.
+    - The three phases are: Mounting, Updating, and Unmounting.
+Q.110 life cycle component Phases?
+Ans.. The three phases are: Mounting, Updating, and Unmounting.
+Q.111 methods inside mounting phase?
+Ans.-constructor()
+    - getDerivedStateFromProps()
+    - render()
+    - componentDidMount()
+Q.112 What are the different lifecycle methods in React?
+Ans. The three phases are: Mounting, Updating, and Unmounting.
+Q.113 what is meant by when I say *componentDidMount* is a lifecycle method? 
+Ans. The componentDidMount() method is called after the component is rendered. This is where you run statements that requires that the component is already placed in the DOM.
+Q.114   Basically what are lifecycle methods?
+Ans. Mounting, Updating, and Unmounting.
+Q.115  What is use of shouldComponentUpdate?
+Ans.The shouldComponentUpdate is a lifecycle method in React. This method makes the component to re-render only when there is a change in state or props of a component and that change will affect the output.
+Q.116 What is Difference between componentWillMount and componentDidMount? 
+Ans.The main distinction lies in the invocation timing of componentDidMount() and the deprecated componentWillMount().
+Q.117 Difference between shouldComponentUpdate and componentDidMount?
+Ans.componentWillMount gets called when rendering React on the server and on the client, but componentDidMount is only called on the client.
+Q.118 Lifecycle methods in react. Best lifecycle method for making API calls?
+Ans.componentDidMount() method
+For example, we are going to fetch any data from an API then API call should be placed in this lifecycle method, and then we get the response, we can call the setState() method and render the element with updated data.
+Q.119  Can we use lifecycle methods in functional component?
+Ans. Yes, you can use the life cycle method in the functional component with help of useEffect hooks.
+Q.120 What are hooks in react? Can you name any hook that we frequently use ? [13]
+Ans. 
   
 
 
