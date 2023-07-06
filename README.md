@@ -337,9 +337,26 @@ return (
 <button onClick={handleClick}>Increase</button>
 </>
 Q.129 What is dependency array in useEffect() hook?
-Ans.
-  
-
+Ans.dependencies is a list of dependencies of your side-effect: being props or state values.
+Q.130 Can we pass multiple state references in dependency array?
+Ans.If we call functions inside the useEffect callback function, we would have to include the function name in the dependency array. 
+Q.131 Can we pass multiple state references in dependency array?
+Ans.If we call functions inside the useEffect callback function, we would have to include the function name in the dependency array. This will result in a bug as printName() isn't wrapped in the callback.
+Q.132  What are useCallback hooks and useMemo hook?
+Ans useCallback returns a memoized callback function, while useMemo returns a memoized value. Both hooks can be used to optimize the performance of your React components by avoiding unnecessary re-creations of functions or values.
+Q.133 What is SPA ?   (3)
+Ans.single-spa-react is a helper library that helps implement single-spa registered application lifecycle functions (bootstrap, mount and unmount) for use with React
+Q.134  Stateful and Stateless components?
+Ans.- a stateful component is a component that holds some state. 
+    - Stateless components, by contrast, have no state
+Q.135 What is diff between stateful vs stateless ?  (5) 
+Ans. React component with internal state is called Stateful component and React component without any internal state management is called Stateless component.
+Q.136  What is routing in react?  (2)
+Ans. In web application, Routing is a process of binding a web URL to a specific resource in the web application. In React, it is binding an URL to a component.
+Q.137  What is React Router? Why we use it? Why we use exact keyword in 
+   react router?
+   Ans.By using React Router's exact prop on the first route, you can ensure that the route will match only if the current URL is an exact match.
+ Q.138  
 
 
 
