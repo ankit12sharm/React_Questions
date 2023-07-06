@@ -177,6 +177,53 @@ Ans.React's key prop gives you the ability to control component instances.
 Q.72  What are key props in react?
 Ans. React's key prop gives you the ability to control component instances.
 Q.73 why is the "key" prop used in lists in react js?
+Ans. Keys are used in React to identify which items in the list are changed, updated, or deleted.
+Q.74 What is the significance of keys props in React ?
+Ans. React's key prop gives you the ability to control component instances.
+Q.75  What is ""key"" prop and what is the benefit of using it in
+   arrays of elements?
+Ans.  A key is a special string attribute you should include when creating arrays of elements. Key prop helps React identify which items have changed, are added, or are removed.
+Q.76 Explain about Components in React ? 
+Ans. Components are independent and reusable bits of code.
+Q.77 What are the types of components in React? 
+Ans. React supports two types of components, class components and functional components.
+Q.78 What are controlled components?
+Ans.In React, a controlled component is a component that is controlled by React state.
+Q.79  What are uncontrolled components?
+Ans.Uncontrolled components refer to components that manage their own state internally.
+Q.80  difference between a Controlled and an Uncontrolled one in React?
+Ans.In React, a controlled component is a component that is controlled by React state, while an uncontrolled component is a component that maintains its own internal state.
+  In a controlled component react, state handles all the form data, whereas, in an uncontrolled component, the HTML form element data is managed by only the DOM.
+Q.81  What are Pure Components?
+Ans. A React component is considered pure if it renders the same output for the same state and props.
+Q.82  What is diff between pure and impure component?
+Ans.In React, components are pure if their output is only determined by their inputs ( props ), and are impure if their output is determined by something other than the inputs, namely their state .
+Q.83 What is a higher-order component(HOCs) in React?  when it is used ?
+Ans. A higher-order component (HOC) is an advanced technique in React for reusing component logic. HOCs are not part of the React API, per se. They are a pattern that emerges from React's compositional nature. Concretely, a higher-order component is a function that takes a component and returns a new component.
+Q.84  What are higher-order components (HOCs) used for?
+Ans.This is where HOCs come in. Here, higher-order components allow developers to reuse code logic in their project. As a result, this means less repetition and more optimized, readable code.
+Q.85 How do you create HOC?
+Ans.e can invoke the HOC as follows: const SimpleHOC = higherOrderComponent(MyComponent);.
+Q.86 How can you embed two or more components into one?
+Ans.create the parent-child relationship between the 2 or more components.
+Q.87 What are the different ways to style a React component?
+Ans.Inline CSS.
+Normal CSS.
+CSS in JS.
+Styled Components.
+CSS module.
+Sass & SCSS.
+Less.
+Stylable.
+Q.88 What are the differences between class and functional components?
+Ans.A functional component is just a plain JavaScript pure function that accepts props as an argument and returns a React element(JSX). A class component requires you to extend from React. Component and create a render function that returns a React element.
+Q.89  How we update state in class components ?
+Ans. To change a value in the state object, use the this. setState() method. When a value in the state object changes, the component will re-render, meaning that the output will change according to the new value(s).
+Q.90  What are different phases of lifecycle in class component? 
+Ans.Lifecycle of Components
+The three phases are: Mounting, Updating, and Unmounting.
+Q.91  Explain the usage of componentWillUnmount() lifecycle method?
+Ans.The componentWillUnmount() method allows us to execute the React code when the component gets destroyed or unmounted from the DOM (Document Object Model). This method is called during the Unmounting phase of the React Life-cycle i.e before the component gets unmounted.
     
   
 
