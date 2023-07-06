@@ -131,6 +131,18 @@ Q.51 Reconciliation process
 Ans. Reconciliation is the process of comparing transactions and activity to supporting documentation. Further, reconciliation involves resolving any discrepancies that may have been discovered.
 Q.52 what is state?
 Ans.The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders
+Q.53 what is useState().?
+Ans useState is React Hook that allows you to add state to a functional component.
+Q.54  setState() is async or sync in nature?
+Ans.setState is an Asynchronous Function.
+Q.55 useEffect in react?
+Ans. The useEffect Hook allows you to perform side effects in your components,
+If we need to perform a side effect, it should strictly be done after our component renders.
+Q.56 What is state lifting?
+Ans. We lift the state up to make the parent state a single shared state and a sole "source of truth" and pass the parent's data to its children. This concept is called lifting state up. It is of great use to maintain data consistency in our react applications.
+Q.57  lifting state up?
+Ans.In React, sharing state is accomplished by moving it up to the closest common ancestor of the components that need it. This is called “lifting state up”. We will remove the local state from the TemperatureInput and move it into the Calculator instead.
+Q.58 
 
     
   
