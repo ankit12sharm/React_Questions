@@ -297,7 +297,47 @@ For example, we are going to fetch any data from an API then API call should be 
 Q.119  Can we use lifecycle methods in functional component?
 Ans. Yes, you can use the life cycle method in the functional component with help of useEffect hooks.
 Q.120 What are hooks in react? Can you name any hook that we frequently use ? [13]
-Ans. 
+Ans. Hooks are the functions which "hook into" React state and lifecycle features from function components.
+Q.121  What are the rules of using hooks?
+Ans -Hooks can only be called inside React function components.
+    -Hooks can only be called at the top level of a component.
+    -Hooks cannot be conditional.
+Q.122  Have you worked with Hooks, different type of hooks?
+Ans.useState Hook. useState to Create State Variables. ...
+useEffect Hook. useEffect to Perform Side Effects. ...
+useRef Hook. useRef to Reference React Elements. ...
+useCallback Hook. useCallback Prevents Callbacks from Being Recreated. ...
+useMemo Hook. useMemo Can Improve Expensive Operations. ...
+useContext Hook. ...
+useReducer Hook.
+Q.123 name 2 hooks and explain ?
+Ans. useState Hook.useState is React Hook that allows you to add state to a functional component
+useEffect Hook.The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data,
+useRef Hook.
+useCallback Hook.
+useMemo Hook.
+useContext Hook.
+useReducer Hook.
+Q.124 What is the need of useState() hook? Can you initialise the ?
+Ans. The React useState Hook allows you to have state variables in functional components. 
+Q.125  useState() hook with null value? [2]
+Ans.the state can be true or null, with the init value of null.
+Q.126  useEffect hook (2)
+Ans.The useEffect Hook allows you to perform side effects in your components.
+Q127.Write syntax for useEffect hook.
+Ans.No dependency passed: useEffect(() => { //Runs on every render }); Example.
+An empty array: useEffect(() => { //Runs only on the first render }, []); Example.
+Q.128 Implement the useState and useEffect hooks?
+Ans.Application constant = () => {
+const [counter, setCounter] = React.useState(0);
+const handleClick = () => setCounter(counter + 1);
+return (
+<>
+<h1>Counter: {counter}</h1>
+<button onClick={handleClick}>Increase</button>
+</>
+Q.129 What is dependency array in useEffect() hook?
+Ans.
   
 
 
