@@ -142,8 +142,41 @@ Q.56 What is state lifting?
 Ans. We lift the state up to make the parent state a single shared state and a sole "source of truth" and pass the parent's data to its children. This concept is called lifting state up. It is of great use to maintain data consistency in our react applications.
 Q.57  lifting state up?
 Ans.In React, sharing state is accomplished by moving it up to the closest common ancestor of the components that need it. This is called “lifting state up”. We will remove the local state from the TemperatureInput and move it into the Calculator instead.
-Q.58 
-
+Q.58  What is the purpose of callback function as an argument of setState()?
+Ans. The setState function takes an optional callback parameter that can be used to make updates after the state is changed. This function will get called once the state has been updated, and the callback will receive the updated value of the state.
+Q.59  what is state and props in react application?
+Ans.                     State                                                                         Props
+      -State changes can be asynchronous                                                      -	Props are read only
+      -State is controlled by react components                                                - Props are controlled by whoever renders the components
+      -State can used to display changes with the component                                   - Props are used to communicate between components
+Q.60 Explain state management with state and props?
+Ans. Props are used to pass data, whereas state is for managing data. Data from props is read-only, and cannot be modified by a component that is receiving it from outside. State data can be modified by its own component, but is private (cannot be accessed from outside)
+Q.61  What is prop drilling? 
+Ans_1.Prop drilling occurs when a parent component passes data down to its children and then those children pass the same data down to their own children. This process can continue indefinitely. At the end, it's a long chain of component dependencies that can be difficult to manage and maintain.
+Ans_2.- Prop drilling is basically a situation when the same data is being sent at almost every level due to requirements in the final level.
+Q.62 Prop drilling and its disadvantage and how we can get rid of this?
+Ans. Using the useContext hook is one of the better solutions to this.
+Q.63  what are differences between state and props?
+Ans. Props are used to pass data from one component to another. The state is local data storage that is local to the component only and cannot be passed to other components.
+Q.64  How does it(props and state) helps to improve performance? 
+Ans nhi mila muje answer khud dekh lo sub me hi krdu kya
+Q.65 pass props b/w the component?
+Ans. React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props. Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
+Q.66 Can we pass the state also as a props to the children components?
+Ans. The Parent component has a name state, when it renders the Child component it passes the state variable as a prop named name.
+Q.67  How to pass props from children to parent?
+Ans. Create a callback method.
+Q.68  What is the difference between state and props?
+Ans.The difference comes in which component the data are owned. State is owned locally and the component itself updates it. Props are owned and read-only by a parent. Props can be changed only if an upstream shift is caused by a callback function passed on to the child.
+Q.69  can we update the state directly
+Ans. No, Updating the state of a component directly can have unintended consequences that can be difficult to debug.
+Q.70 Why should we not update the state directly?
+Ans.can have unintended consequences that can be difficult to debug
+Q.71 What is use of key property in react?
+Ans.React's key prop gives you the ability to control component instances.
+Q.72  What are key props in react?
+Ans. React's key prop gives you the ability to control component instances.
+Q.73 why is the "key" prop used in lists in react js?
     
   
 
