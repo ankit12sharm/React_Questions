@@ -356,7 +356,49 @@ Ans. In web application, Routing is a process of binding a web URL to a specific
 Q.137  What is React Router? Why we use it? Why we use exact keyword in 
    react router?
    Ans.By using React Router's exact prop on the first route, you can ensure that the route will match only if the current URL is an exact match.
- Q.138  
+ Q.138 Have you worked with react-router? What is it?  (3)
+ Ans.React Router is a JavaScript framework that lets us handle client and server-side routing in React applications.
+ Q.139 How do we configure react router?  (2)
+ Ans. In your project directory, create a folder named component inside the src folder and now add 3 files named home.js, about.js and contact.js to the component folder.
+ Q.140  How you will achieve routing in react and how you will achieve authorisation
+   in react?
+  Ans.Your React application authenticates the user and receives an access token from Auth0. The application can then pass that access token to your API as a credential.
+ Q.141  How  to share data across multiple component  (2)
+ Ans.In the case of sharing data from parent to child component, we use props.
+ Q.142  What is context?
+ Ans.React Context is a way to manage state globally. It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.
+ Q.143  What is contextApi? (3)
+ Ans.The React Context API, introduced in React v. 16.3, allows us to pass data through our component trees, giving our components the ability to communicate and share data at different levels.
+ Q.144 How you can share the data across the components? 
+ Ans.use props.
+ Q.145  How to use the Context API?
+ Ans.import { useContext } from 'react';
+import { Context } from './context';
+function MyComponent() {
+return <span>{value}</span>;
+}
+Q.146 what are contextAPIs used for?  (4)
+Ans. allows us to pass data through our component trees, giving our components the ability to communicate and share data at different levels.
+Q.147  What are data types in js? (2)
+Ans.String, Number, Boolean, Undefined, and NULL are primitive types, and Object, Array, and RegExp are non-primitive types.
+Q.148 . What is diff null & undefined? (2)
+Ans.Undefined means the variable has been declared, but its value has not been assigned. Null means an empty value or a blank value. The typeof() operator returns undefined for an undefined variable. The typeof() operator returns the type as an object for a variable whose value is assigned as null.
+Q.149  What is object? (2)
+Ans.React components has a built-in state object. The state object is where you store property values that belong to the component. When the state object changes, the component re-renders.
+Q.150 What all ways data can be passed between react components   ?
+Ans.create a callback function in the parent component and then pass the callback function to the child component as a prop. This callback function will retrieve the data from the child component.
+Q.151 What is the difference between cloneElement and createElement?
+Ans.createElement is the code that JSX gets compiled or converted into and is used by reacting to create elements. cloneElement is used for cloning elements and passing them new props. This method is used to describe how the User Interface looks. This method is used to manipulate the elements.
+Q.152  Can you conditionally add attributes to components in React?
+Ans. This is useful if you have many attributes that you want to add to an element or component. In the example code below, the <input> attributes are in an object. These are then conditionally changed using an if statement before spreading in the attributes to an element during rendering.
+Q.153 what are keys?
+Ans.A “key” is a special string attribute you need to include when creating lists of elements in React.
+Q.154 what is useEffect used for?
+Ans. The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM, and timers. useEffect accepts two arguments. The second argument is optiona
+Q.155 Explain useEffect? 
+Ans.The useEffect Hook allows you to perform side effects in your components
+Q.156  What is useCallback?
+Ans. 
 
 
 
