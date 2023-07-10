@@ -398,12 +398,34 @@ Ans. The useEffect Hook allows you to perform side effects in your components. S
 Q.155 Explain useEffect? 
 Ans.The useEffect Hook allows you to perform side effects in your components
 Q.156  What is useCallback?
-Ans. 
-
-
-
-
-
+Ans. useCallback is a hook that will return a memoized version of the callback function that only changes if one of the dependencies has changed. Memoization is a way to cache a result so that it doesn't need to be computed again.
+Q.157 explain spread operator?
+Ans. The spread operator is commonly used to make deep copies of JS objects(...).
+Q.158 What are refs? (2)
+Ans.Refs are a function provided by React to access the DOM element and the React element that you might have created on your own.
+Q.159  What is the use of refs?
+Ans. They are used in cases where we want to change the value of a child component, without making use of props and all. They have wide functionality as we can use callbacks with them.
+Q.160 When do you need to use refs?
+Ans. They are used in cases where we want to change the value of a child component, without making use of props and all.
+Q.161  How to create refs?
+Ans.Refs are created using React.createRef() 
+Q.162  What is useRef ? useRef Example (3)
+Ans.
+Example:Get your own React.js Server
+useRef() only returns one item. It returns an Object called current . When we initialize useRef we set the initial value: useRef(0) . It's like doing this: const count = {current: 0} .
+Q.163 What is useMemo ? 
+Ans.The useMemo is a hook used in the functional component of react that returns a memoized value. 
+Q.164 working of useCallback() and useMemo() ? (2)
+Ans.useCallback returns a memoized callback function, while useMemo returns a memoized value. Both hooks can be used to optimize the performance of your React components by avoiding unnecessary re-creations of functions or values.
+Q.165  Difference between useMemo & useCallback hook?  (2)
+Ans.useCallback returns a memoized callback function, while useMemo returns a memoized value. Both hooks can be used to optimize the performance of your React components by avoiding unnecessary re-creations of functions or values.
+Q.166 what things do you see things when you first create react application?
+Ans.The package. json file is the heart of any Node project. It records important metadata about a project which is required before publishing to NPM, and also defines functional attributes of a project that npm uses to install dependencies, run scripts, and identify the entry point to our package.
+Q.167 what is babel.?
+Ans.Babel is a very famous transpiler that basically allows us to use future JavaScript in today's browsers. 
+Q.168 index.js in react application
+Ans.Index. js file is just like index. html file, if no specification is provided a directory points to it's index file.
+Q.169 
 
 
 
