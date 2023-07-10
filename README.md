@@ -425,7 +425,46 @@ Q.167 what is babel.?
 Ans.Babel is a very famous transpiler that basically allows us to use future JavaScript in today's browsers. 
 Q.168 index.js in react application
 Ans.Index. js file is just like index. html file, if no specification is provided a directory points to it's index file.
-Q.169 
+Q.169 how do you handle an event in react js? (2)
+Ans.When the event is triggered and it hits and DOM object ,react maps the event to the handler, if it matches it calls the handler.
+Q.170 What are synthethic events?
+Ans.Synthetic events are that ReactJS reuses these events objects, by pooling them, which increase the performance
+Q.171  What is the difference between HTML and React event handling?
+Ans.React event handling is similar to HTML with some changes in syntax, such as: React uses camelCase for event names while HTML uses lowercase. Instead of passing a string as an event handler, we pass a function in React.
+Q.172 What are synthetic events in React?
+Ans. The synthetic event is a cross-browser wrapper of the browser's native even.
+Q.173  how do you pass data from child to parent, and child to a child?
+Ans. -In the parent component, create a callback function. ...
+     -Pass the callback function to the child as a props from the parent component.
+     -The child component calls the parent callback function using props and passes the data to the parent component.
+Q.174 Use of constructor?
+Ans.In React, constructors are mainly used for two purposes: It used for initializing the local state of the component by assigning an object to this. state. It used for binding event handler methods that occur in your component.
+Q.175 What is the purpose of using super constructor ?
+Ans.Super() function is to call the constructor of the parent class.
+Q.176 Fetch data from API = 
+const url = ""https://jsonplaceholder.typicode.com/users/1"";
+Q.177 What are Portals?
+Ans.React Portals are an advanced concept that allows developers to render their elements outside the React hierarchy tree without comprising the parent-child relationship between components.
+Q.178 What are error boundaries?
+Ans.Error boundaries in React are a crucial aspect of error handling in React applications. They are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.
+Q.179 Two way binding
+Ans.Two-way data binding allows bidirectional data flow, meaning that changes in the UI automatically update the component's state, and changes in the state automatically update the UI. In React, two-way data binding is achieved using controlled components.
+Q.180  What is dependency array?
+Ans.Dependency arrays are a concept that is tightly coupled to hooks in React (thus also to function components). Some hooks, like useEffect and useCallback have 2 arguments. The first one is a callback (a function), and the second one is the dependency array. It takes the form of an array of variables.
+Q.181  How we can use style tag in React?
+Ans. khud bhi krle kuch sub me likh du ky 
+Q.182 Map vs ForEach?
+Ans.The map() method returns a new array, whereas the forEach() method does not return a new array. The map() method is used to transform the elements of an array, whereas the forEach() method is used to loop through the elements of an array.
+Q.183 How can we pass data from component A to component C with no child 
+   sibling relationship?
+Ans.we use props.
+Q.184 what is event capturing and event bubbling?
+Ans.The standard DOM Events describes 3 phases of event propagation: Capturing phase – the event goes down to the element. Target phase – the event reached the target element. Bubbling phase – the event bubbles up from the element.
+Q.185  HTML Forms 	try out
+Q.186  ES6 functions?
+Ans.Classes · Arrow Functions · Variables (let, const, var) · Array Methods like .map() · Destructuring · Modules · Ternary Operator · Spread 
+Q.187 arrow functions?
+Ans.An arrow function expression is a compact alternative to a traditional function expression
 
 
 
